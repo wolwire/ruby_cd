@@ -27,7 +27,7 @@ class LinkedList
 
 	def delete(val)
 		if @head.value == val
-			@head=@head.next
+			@head=nil
 		else
 			curr=@head
 			while curr.next != nil 
@@ -58,14 +58,10 @@ a.add(1)
 a.add(2)
 a.add(3)
 a.add(4)
-
-a.delete(1)
+a.add(5)
+a.add(6)
 a.delete(2)
-a.delete(4)
-a.delete(3)
-
 a.disp
-
 
 
 
