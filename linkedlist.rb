@@ -3,8 +3,11 @@ class Node
 	def initialize(value)
 		@value=value
 		@next=nil
-		return Node
 	end
+	def to_s
+		return 0
+	end
+	
 end
 
 class LinkedList
@@ -61,8 +64,7 @@ a.add(4)
 
 a.delete(1)
 a.delete(2)
-a.delete(4)
-a.delete(3)
+
 
 a.disp
 
